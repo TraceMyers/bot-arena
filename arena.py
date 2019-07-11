@@ -1,5 +1,4 @@
-import sebastian
-import luca
+import testbot
 import pygame as pg
 from time import sleep
 import os
@@ -38,8 +37,8 @@ class Positions:
 
 
 def main():
-    bot1 = luca.BattleBot()
-    bot2 = sebastian.BattleBot()
+    bot1 = testbot.BattleBot()
+    bot2 = testbot.BattleBot()
     arena = Arena()
 
     pg.init()
