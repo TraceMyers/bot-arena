@@ -47,7 +47,7 @@ def main():
 
     positions = Positions(120, 500)
     bg = Background('arena_imgs\\sf_bg_1_1200.jpg', [-850, 0])
-    font = pg.font.Font(f'raleway.ttf', 32)
+    font = pg.font.Font(f'arena_fonts\\raleway\\Raleway-Bold.ttf', 32)
 
     run = True
     step = 0
